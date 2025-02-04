@@ -8,22 +8,27 @@
     font-family: comic-sans;
 } </style>
 <head>
-<link rel="stylesheet" href="/style/homeStyle.css">
+<link rel="stylesheet" href="style/homeStyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/home.js"></script>
 </head>
 <body>
-<div class="topnav">
-  <a class="active" href="#home">Home</a>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
   <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
 <h1 style="text-align:center;">My new website</h1>
 <p style="text-align: center;">Welcome to my website! Where you will <del>definitely</del> <ins>NOT</ins> get a virus.</p> 
-<button onclick="document.location='/page1'">Click here!</button>
+<button onclick="document.location='page1'">Click here!</button>
 <br>
-<button onclick="document.location='/contact'">Contact Info</button>
+<button onclick="document.location='contact'">Contact Info</button>
 <br>
-<button onclick="document.location='/other_projects'">Other Projects</button>
+<button onclick="document.location='other_projects'">Other Projects</button>
 <title>Homepage</title>
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 </body>
